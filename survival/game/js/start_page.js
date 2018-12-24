@@ -9,7 +9,7 @@ function StartPage(){
     game.state.start('Game');
   }
   var CreditButtonOnClicked = function(){
-    
+    game.state.start('Credit');
   }
   this.create = function(){
     // 배경

@@ -42,6 +42,7 @@ function Boot(){
     // 타이틀 리소스
     game.load.spritesheet('title_button','./game/images/title_button.png',80,20);
     game.load.image('title_screen','./game/images/title_screen.png');
+    game.load.image('credit_screen','./game/images/credit_screen.png');
     // 사운드 로딩
   }
 
